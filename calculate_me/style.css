@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /*background-color: rgba(3, 1, 1, 0.712);*/
+}
+
+.button {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 24px 24px 24px 24px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 20%;
+  background-color: rgba(42, 255, 255, 0.68);
+  cursor: pointer;
+  width: 64px;
+  color: rgb(52, 51, 51);
+  box-shadow: 11px 8px 9px rgba(0, 0, 0, 0.539),
+    2px 2px 3px rgba(0, 0, 0, 0.539);
+  text-shadow: 1.2px 1.5px 2px rgba(0, 0, 0, 0.539);
+}
+
+.row {
+  margin: 5px 0;
+}
+
+.row .input {
+  font-size: 22px;
+  margin: 0;
+  padding: 12px 12px 12px 12px;
+  border: none;
+  background-color: rgb(84, 242, 242);
+  border-radius: 22px;
+  color: rgb(52, 51, 51);
+  box-shadow: inset 5px -5px 5px rgba(0, 0, 0, 0.539),
+    -1px -2px 3px rgba(0, 0, 0, 0.539);
+  text-align: right;
+  text-shadow: 1.2px 1px 2px rgba(0, 0, 0, 0.539);
+}
